@@ -1,25 +1,11 @@
-Opis projektu:
-Napisz aplikację do zarządzania zadaniami, która umożliwia dodawanie, usuwanie, edytowanie, filtrowanie,
-wyświetlanie i zapisywanie zadań do pliku tekstowego.
-Funkcje aplikacji:
- Dodawanie nowych zadań wraz z priorytetem, terminem wykonania, priorytet, kategoria
-(praca/osobiste/etc) i opisem.
- Usuwanie i edycja istniejących zadań, w tym zmiana priorytetu, terminu wykonania i opisu.
- Oznaczanie zadań jako zakończone.
- Wyświetlanie listy zadań wraz z ich szczegółami.
- Filtrowanie zadań na podstawie priorytetu, terminu wykonania lub statusu.
- Zapisywanie i wczytywanie zadań do/z pliku tekstowego.
- Dodaj funkcje generowania statystyk i analizy danych dotyczących zadań, takich jak średni czas
-wykonania zadania, procentowe zakończenie zadań na czas, najczęstsze priorytety.
- Dodaj obsługę błędów takie jak edycja zakończonych zadań, wywołanie nieistniejącego zadania,
-niepoprawnie wpisana data.
- Utwórz prosty interface.
-Struktura projektu:
-Klasa Task, która będzie reprezentować pojedyncze zadanie. Klasa powinna zawierać odpowiednie
-atrybuty (np. nazwa zadania, opis, priorytet, termin wykonania, czy zadanie jest zakończone) oraz metody
-do zarządzania danymi zadania.
-Klasa TaskManager, która będzie zarządzała zadaniami. Będzie zawierała metody do dodawania,
-usuwania, edytowania, oznaczania jako zakończone oraz wczytywania i zapisywania zadań do pliku.
-Klasa FileHandler, która będzie odpowiedzialna za operacje związane z plikiem, takie jak zapisywanie i
-wczytywanie danych.
-Klasy wyjątków do obsługi sytuacji błędnych, np. TaskNotFoundError, InvalidDateError, itp.
+Project Description: 
+Write a task management application that allows you to add, delete, edit, filter, display, and save tasks to a text file. 
+Application Features:
+-Add new tasks with priority, due date, priority, category (work/personal/etc), and description.
+-Delete and edit existing tasks, including changing priority, due date, and description.
+-Mark tasks as complete.  Display a list of tasks with their details.  Filter tasks based on priority, due date, or status.
+-Save and load tasks to/from a text file.
+-Add functions to generate statistics and analyze task data, such as average task completion time, percentage of tasks completed on time, top priorities. 
+-Add error handling, such as editing completed tasks, calling a nonexistent task, incorrectly entered date. 
+-Create a simple interface. 
+-Project Structure: Task class, which will represent a single task. The class should contain appropriate attributes (e.g. task name, description, priority, due date, whether the task is complete) and methods to manage task data. TaskManager class, which will manage tasks. It will contain methods to add, remove, edit, mark as complete, and load and save tasks to a file. FileHandler class, which will be responsible for file-related operations, such as saving and loading data. Exception classes to handle error situations, e.g. TaskNotFoundError, InvalidDateError, etc.
